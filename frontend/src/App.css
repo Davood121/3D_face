@@ -1,0 +1,91 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  pointer-events: none;
+  font-family: 'Inter', sans-serif;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+/* Voice AI Styles */
+.ai-controls {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  pointer-events: auto;
+  /* Allow clicking */
+}
+
+.mic-button {
+  background: rgba(0, 255, 255, 0.2);
+  border: 2px solid cyan;
+  color: cyan;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.mic-button:hover {
+  background: cyan;
+  color: black;
+  box-shadow: 0 0 15px cyan;
+}
+
+.mic-button.listening {
+  background: red;
+  border-color: red;
+  color: white;
+  animation: pulse 1s infinite;
+}
+
+.ai-response {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 3px solid cyan;
+  max-width: 80%;
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0 0 5px cyan;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
