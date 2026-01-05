@@ -14,7 +14,7 @@ A real-time 3D face tracking application that detects facial landmarks and emoti
 
 ## Demo
 
-https://github.com/user-attachments/assets/c5b5f63c-2305-4157-aadc-8d416058c55b
+<video src="https://github.com/user-attachments/assets/c5b5f63c-2305-4157-aadc-8d416058c55b" autoplay loop muted playsinline preload="auto" width="100%"></video>
 
 *Watch the hologram react to facial expressions in real-time!*
 
