@@ -10,7 +10,14 @@ A real-time 3D face tracking application that detects facial landmarks and emoti
 - **Emotion Recognition**: Detects facial expressions to classify emotions (Happy, Surprise, Neutral).
 - **Holographic Visualization**: Renders a 3D digital twin of the face with neon aesthetics.
 - **Interactive UI**: Dynamic lighting and post-processing bloom effects.
-- **Low Latency**: WebSocket communication for smooth real-time performance.
+- [Low Latency]: WebSocket communication for smooth real-time performance.
+
+## Demo
+
+![Demo Placeholder](https://via.placeholder.com/800x450?text=Demo+Video+Coming+Soon)
+
+*Watch the hologram react to facial expressions in real-time!*
+
 
 ## Tech Stack
 
@@ -86,6 +93,14 @@ npm run dev
 4. Allow camera access if prompted (though the backend handles the camera feed accessing, the browser page visualizes the data).
 5. Move your face in front of the camera to see the 3D hologram mimic your movements in real-time.
 6. Try smiling or opening your mouth to see the emotion detection change the color theme!
+
+## Roadmap
+
+- [ ] 📱 **Mobile Support**: Optimize for mobile browsers and cameras.
+- [ ] 🎭 **More Emotions**: Add support for Anger, Sadness, and Fear.
+- [ ] 👤 **Custom Avatars**: Allow users to upload or generate their own 3D models.
+- [ ] 🥽 **VR Integration**: WebXR support for immersive experience.
+- [ ] 🤖 **Voice Interaction**: Integrate LLMs for the avatar to speak back.
 
 ## Project Structure
 
