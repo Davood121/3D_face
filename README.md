@@ -10,11 +10,11 @@ A real-time 3D face tracking application that detects facial landmarks and emoti
 - **Emotion Recognition**: Detects facial expressions to classify emotions (Happy, Surprise, Neutral).
 - **Holographic Visualization**: Renders a 3D digital twin of the face with neon aesthetics.
 - **Interactive UI**: Dynamic lighting and post-processing bloom effects.
-- [Low Latency]: WebSocket communication for smooth real-time performance.
+- **Low-latency updates:** WebSocket communication for real-time visualization.
 
 ## Demo
 
-<video src="https://github.com/user-attachments/assets/c5b5f63c-2305-4157-aadc-8d416058c55b" controls playsinline preload="metadata" width="100%"></video>
+[▶ Watch the 3D face-tracking demo video](https://github.com/user-attachments/assets/c5b5f63c-2305-4157-aadc-8d416058c55b)
 
 *Watch the hologram react to facial expressions in real-time!*
 
